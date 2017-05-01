@@ -1,7 +1,7 @@
-### Problem Name
+## Problem Name
 Count distinct words in a given paragraph
 
-### Description
+## Description
 
 You are a data analyst and has been asked to write a program to find out the number of distinct words and their counts for a given input text. The input text is given in the form of a string or a paragraph. The following rules apply to the text
 * each word is separated by a space
@@ -11,25 +11,25 @@ You are a data analyst and has been asked to write a program to find out the num
 
 Write the program using HashMap and the following specifications:
 
-Class:WordCount
+Class: WordCount
 
-* Method:getWordCount
+* Method: getWordCount
 	* Description: Get the count for each distinct word in a given string using HashMap
 	* Parameters: String
 	* Returns: HashMap
 	* Signature: HashMap<String, Int> getWordCount(String inputText)
 	* Visibility: public
 
-### Example
+## Example
 	WordCount wcount = new WordCount();
 	..
 	HashMap<String,Int> hmap = new HashMap(String,Int);
 	hmap = wcount.getWordCount(inputText);
 
-### Problem Name
+## Problem Name
 Password change validation
 
-### Description
+## Description
 
 A bank requires its customers to change their internet banking password based on the following conditions:
 * should be atleast 8 characters long
@@ -50,7 +50,7 @@ Class: ValidatePassword
   * Signature:boolean isPasswordValid(String password)
   * Visibility: public
 
-### Example
+## Example
 	ValidatePassword vPassword = new ValidatePassword();
 	
 	if(vPassword.isPasswordValid(password)) //check if password is valid
